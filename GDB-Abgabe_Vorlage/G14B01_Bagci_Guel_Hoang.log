@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.11.13)  3 NOV 2016 12:15
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.11.13)  3 NOV 2016 18:47
 entering extended mode
 **G14B01_Bagci_Guel_Hoang.tex
 
-("C:\Users\Viet\Dropbox\UniHH\Sem03\GDB\WS1617\Uebung\Uebung 01\GDB-Abgabe_Vorl
-age\G14B01_Bagci_Guel_Hoang.tex"
+(C:\Users\Viet\Dropbox\GitHub\GDB\GDB-Abgabe_Vorlage\G14B01_Bagci_Guel_Hoang.te
+x
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -15,13 +15,9 @@ german-x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
 ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
-
-("C:\Users\Viet\Dropbox\UniHH\Sem03\GDB\WS1617\Uebung\Uebung 01\GDB-Abgabe_Vorl
-age\gdb-aufgabenblatt.cls"
+(C:\Users\Viet\Dropbox\GitHub\GDB\GDB-Abgabe_Vorlage\gdb-aufgabenblatt.cls
 Document Class: gdb-aufgabenblatt 2009/11/08 v1.0 VSIS-Aufgabenblaetter
-
-("C:\Users\Viet\Dropbox\UniHH\Sem03\GDB\WS1617\Uebung\Uebung 01\GDB-Abgabe_Vorl
-age\vsis-aufgabenblatt.cls"
+(C:\Users\Viet\Dropbox\GitHub\GDB\GDB-Abgabe_Vorlage\vsis-aufgabenblatt.cls
 Document Class: vsis-aufgabenblatt 2009/11/08 v1.0 VSIS-Aufgabenblaetter
 ("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrartcl.cls"
 Document Class: scrartcl 2012/07/29 v3.11b KOMA-Script document class (article)
@@ -208,8 +204,7 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
 \bigstrutjot=\dimen117
 )
-("C:\Users\Viet\Dropbox\UniHH\Sem03\GDB\WS1617\Uebung\Uebung 01\GDB-Abgabe_Vorl
-age\sfmath.sty"
+(C:\Users\Viet\Dropbox\GitHub\GDB\GDB-Abgabe_Vorlage\sfmath.sty
 Package: sfmath 2007/08/27 v0.8 sans serif maths
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 329.
@@ -273,7 +268,8 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 459.
 LaTeX Font Info:    Overwriting math alphabet `\mathsl' in version `bold'
 (Font)                  OT1/cmss/m/sl --> OT1/cmss/m/sl on input line 466.
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\uri\uri.sty"
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\uri\uri.sty"
 Package: uri 2011/03/04 v1.0a Hyperlinks URIs like DOI,HDL,NBN,PubMed (HMM)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
@@ -302,12 +298,13 @@ Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 Package: scrpage2 2010/04/22 v2.5 LaTeX2e KOMA-Script package
 LaTeX Info: Redefining \pagemark on input line 176.
 )
-("C:\Users\Viet\Dropbox\UniHH\Sem03\GDB\WS1617\Uebung\Uebung 01\GDB-Abgabe_Vorl
-age\vsis-gdb.sty"
+(C:\Users\Viet\Dropbox\GitHub\GDB\GDB-Abgabe_Vorlage\vsis-gdb.sty
 Package: vsis-gdb 2009/11/27 v1.2 Nuetzliche Makros fuer GDB
- ("C:\Program Files\MiKTeX 2.9\tex\latex\setspace\setspace.sty"
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\setspace\setspace.sty"
 Package: setspace 2011/12/19 v6.7a set line spacing
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip50
 
@@ -732,8 +729,8 @@ Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
-("C:\Users\Viet\Dropbox\UniHH\Sem03\GDB\WS1617\Uebung\Uebung 01\GDB-Abgabe_Vorl
-age\G14B01_Bagci_Guel_Hoang.aux")
+(C:\Users\Viet\Dropbox\GitHub\GDB\GDB-Abgabe_Vorlage\G14B01_Bagci_Guel_Hoang.au
+x)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
@@ -747,8 +744,7 @@ LaTeX Font Info:    ... okay on input line 15.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
 LaTeX Font Info:    Try loading font information for T1+cmss on input line 15.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmss.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmss.fd"
 File: t1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
@@ -799,8 +795,7 @@ Overfull \vbox (77.26578pt too high) has occurred while \output is active []
 
 [1{C:/Users/Viet/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
- <C:/Users/Viet/Dropbox/UniHH/Sem03/GDB/WS1617/Uebung/Uebung 01/GDB-Abgabe_Vorl
-age/vsis.pdf>]
+ <C:/Users/Viet/Dropbox/GitHub/GDB/GDB-Abgabe_Vorlage/vsis.pdf>]
 Overfull \hbox (4.26865pt too wide) in paragraph at lines 62--67
 \T1/cmss/m/n/10.95 Schü-ler-aus-wei-sen, Stun-den-pla-ner-stel-lung und Pla-nun
 g der Raum-be-le-gung, Aus-stel-len von (Abgangs-
@@ -869,15 +864,15 @@ Overfull \vbox (77.26578pt too high) has occurred while \output is active []
 
 
 [4]
-("C:\Users\Viet\Dropbox\UniHH\Sem03\GDB\WS1617\Uebung\Uebung 01\GDB-Abgabe_Vorl
-age\G14B01_Bagci_Guel_Hoang.aux")
+(C:\Users\Viet\Dropbox\GitHub\GDB\GDB-Abgabe_Vorlage\G14B01_Bagci_Guel_Hoang.au
+x)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
  14936 strings out of 493921
- 291117 string characters out of 3147284
+ 290682 string characters out of 3147284
  406194 words of memory out of 3000000
  17879 multiletter control sequences out of 15000+200000
  16905 words of font info for 51 fonts, out of 3000000 for 9000
@@ -892,7 +887,7 @@ fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1000.pk> <C:\Users\Viet\AppData\Local\Mi
 KTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecss1000.pk><C:/Program Files/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Program Files/MiKTeX 2.9/f
 onts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on G14B01_Bagci_Guel_Hoang.pdf (4 pages, 217268 bytes).
+Output written on G14B01_Bagci_Guel_Hoang.pdf (4 pages, 217144 bytes).
 PDF statistics:
  239 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
