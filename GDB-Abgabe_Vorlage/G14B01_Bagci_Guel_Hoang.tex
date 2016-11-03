@@ -1,0 +1,167 @@
+\documentclass[ngerman]{gdb-aufgabenblatt}
+
+%Umlaute
+\usepackage[ansinew]{inputenc}
+\usepackage[T1]{fontenc}
+
+\renewcommand{\Aufgabenblatt}{1}
+\renewcommand{\Ausgabedatum}{Mi. 19.10.2016}
+\renewcommand{\Abgabedatum}{Fr. 04.11.2016}
+\renewcommand{\Gruppe}{Bagci, Gül, Hoang}
+\renewcommand{\STiNEGruppe}{14}
+%Aufzählungszeichen in Buchstaben ändern
+\renewcommand{\labelenumi}{\alph{enumi})}
+
+\begin{document}
+
+
+\section{Informationssysteme}
+	\begin{enumerate}
+		\item Charakterisierung \\
+			Ein Informationssystem (IS) besteht aus Menschen und Maschinen, die
+			Informationen erzeugen und/oder benutzen und die durch
+			Kommunikationsbeziehungen miteinander verbunden sind.
+			Ein rechnergestütztes IS dient der Automatisierung der Erfassung, Speicherung und Transformation von Informationen durch den Einsatz von EDV.
+		\item Datenunabhängigkeit
+			\begin{enumerate}
+				\item Logische Datenunabhängigkeit bedeutet, dass Anwendungen gegen Änderungen, die am Datenbankschema vorgenommen werden, immun sind.
+				\item Physische Datenunabhängigkeit weisen Datenbanksysteme auf, bei denen Änderungen an der physischen Speicher- oder der Zugriffsstruktur (beispielsweise das Anlegen oder Entfernen einer Indexstruktur) keine Auswirkungen auf die logische Struktur der Datenbasis, das Datenbankschema, haben. 
+			\end{enumerate}
+			
+		\item Beispiele
+			\begin{enumerate}
+				\item Informationssystem einer Bibliothek
+					\begin{itemize}
+						\item Die Bibliotheksdatenbank verwaltet die Daten der in der Bibliothek befindlichen und ausgeliehenen Bücher und Zeitschriften
+						\item Die Bücher sind kategorisiert in Themen oder Fachgebiet und enthalten bibliographische Angaben wie Titel, Verfasser und Erscheinungsjahr eines Werkes
+						\item Sie enthält Daten über Benutzer sowie Personal wie zum Beispiel deren persönliche Informationen und Ausleihkonto
+						\item Typische Anwendungen/Abläufe sind z. B.: \\
+						Registrierung und Löschen eines Kontos, Ausleihen, Bestellen, Verlängern eines Buches, Personalverwaltung, Gehaltsabrechnung, Einsehen des Lagerbestands, Gebührenabrechnung, 
+						
+					\end{itemize}
+				\item Informationssystem von Parkhäusern
+					\begin{itemize}
+						\item Die Parkhausdatenbank speichert und verwaltet die Parkplätze aller Parkhäuser
+						\item Die Parkhäuser werden unterschieden in öffentliche und private, kostenlose und gebührenpflichtige, besetzte und freie Parkplätze
+						\item genaue und dynamische Echtzeitinformationen über die Lage von Parkhäusern, die Anzahl von Stellplätzen, detaillierte Gebühreninformationen und aktuelle Belegungszahlen
+						\item Typische Anwendungen/Abläufe sind z. B.: \\
+						Reservieren eines Parkplatzes, Ortung der in der Nähe befindlichen Parkhäuser, Parkplatzbuchungen, Warteliseerstellung für Parkplätze
+						
+					\end{itemize}
+					\newpage
+				\item Informationssystem einer Schule
+					\begin{itemize}
+						\item Die Schuldatenbank ist die Sammlung aller für die Abwicklung der
+						an einer Schule anfallenden Verwaltungsaufgaben benötigten Daten.
+						
+						\item Eine Schule gliedert sich in mehrere Klassenstufen, denen
+						sowohl die Schüler als auch die Lehrer zugeordnet sind.
+						
+						\item Die Schüler belegen verschiedene Fächer von Lehrern und bekommen Noten.
+						
+						\item Typische Anwendungen/Abläufe sind z. B.:
+						Immatrikulation der Schulanfänger, 
+						Ausfertigen von Schülerausweisen,
+						Stundenplanerstellung und Planung der Raumbelegung, Ausstellen von
+						(Abgangs-)zeugnissen, Prüfungsergebnisse, etc.
+					\end{itemize}
+			\end{enumerate}
+	\end{enumerate}
+
+
+\section{Miniwelt}
+	\begin{enumerate}
+		\item 
+			\begin{itemize}
+				\item Elemente
+					\begin{itemize}
+						\item Mitspieler: Vorname, Name, Passwort
+						\item Tippspielgemeinschaft: Name
+						\item Verwalter: Vorname, Name, Passwort
+						\item Wettbewerb: Name
+						\item Begegnung: Team A, Team B, Uhrzeit, Datum
+						\item Ergebnis: Tore A, Tore B
+						\item Tipp: Ergebnis A, Ergebnis B, Punkte
+					\end{itemize}
+				\item Vorgänge
+					\begin{itemize}
+						\item Mitspieler \\
+							an der Anwendung anmelden, Tipps abgeben, über aktuellen Punktestand informieren, Ergebnisse einsehen
+						\item Verwalter \\
+							Tippspielgemeinschaft erstellen, Wettbewerb anlegen, Begegnungen zu einem Wettbewerb hinzufügen, Ergebnisse eintragen, Mitspieler hinzufügen, Mitspieler entfernen, Ergebnis eintragen
+					\end{itemize}
+			\end{itemize}
+			
+		\item Anforderungen an eine DBS \\
+			\begin{enumerate}
+				\item	Kontrolle über die operationalen Daten
+					\begin{itemize}
+						\item Verwalter, Mitspieler haben verschiedene Benutzerrechte
+						\item Tipps können pro Person nur einmal abgegeben werden.
+						\item Ergebnisse der Begegnungen können gleichzeitig von mehreren Nutzern eingesehen werden
+					\end{itemize}
+				\item	Leichte Handhabbarkeit der Daten
+					\begin{itemize}
+						\item benutzerfreundliche Oberfläche
+						\item exakte Beschreibung für jede Aktion 
+					\end{itemize}
+					
+				\item	Kontrolle der Datenintegrität
+					\begin{itemize}
+						\item Gefühl, dass der Nutzer alleine auf seine Tipps zugreift, ist gegeben
+						\item Wiederherstellung von Transaktionen bei Absturz des Systems
+					\end{itemize}
+				\item	Leistung und Skalierbarkeit
+					\begin{itemize}
+						\item keine Leistungseinschränkung auch bei gleichzeitigem Zugriff durch viele Nutzer
+					\end{itemize}
+					
+				\item	Hoher Grad an Daten-Unabhängigkeit
+					\begin{itemize}
+						\item möglichst starke Isolation der Anwendungsprogramme von den Daten: Web-Anwendung, Desktop-Anwendung, Mobile Anwendung auf dieselben Daten
+					\end{itemize}
+			\end{enumerate} 
+	\end{enumerate}
+
+
+\section{Transaktionen}
+	\begin{enumerate}
+		\item Zeitpunkt A
+			\begin{enumerate}
+				\item Vom Konto 5 wurden 1000 Einheiten abgezogen. Konto 7 wurden jedoch noch keine 1000 Einheiten hinzugefügt. Fehler bei der Transaktion. \\
+				Prävention im Datenbanksystem(DBS): Fehler bei der Transaktion. Kontostand wird zurückgesetzt.
+				\item Vom Konto 5 wurden noch keine 1000 abgezogen. Keine Änderungen. Transaktion fehlgeschlagen. \\
+				Prävention im DBS: keine
+				
+			\end{enumerate}
+		\item Zeitpunkt B
+			\begin{enumerate}
+				\item 1000 Einheiten wurden von Konto 5 auf Konto 7 überwiesen. PRINT-Vorgang jedoch fehlgeschlagen. \\ Prävention im DBS: Rücksetzen beider Konten. 
+				\item Keine Änderungen. PRINT-Vorgang jedoch erfolgreich. Rücksetzen nicht möglich. \\
+				Prävention im DBS: keine
+				
+			\end{enumerate}
+	\end{enumerate}
+
+\section{Warm-Up MySQL}
+	\begin{enumerate}
+		\item
+			Eine neue Tabelle \(user\) mit 3 Spalten wird angelegt, welche die Bezeichnungen \(id\), \(name\) und \(passwort\) besitzen. Dann wird eine Zeile mit folgenden Daten in die Tabelle eingefügt: Unter \(id\): 1, unter  \(name\): gbdNutzer, unter \(passwort\): geheim
+		\item
+			Alle Zeilen mit \(gdbNutzer\) als \(name\) der Tabelle \(user\) werden ausgegeben. Die Tabelle wird anschließend gelöscht.
+		\item
+			\begin{itemize}
+				\item Externes Schema \\
+					Definition von zugeschnittenen Sichten auf Teile des konzeptionellen
+					Schemas für spezielle Anwendungen (Benutzer). Vergleichbar in der Architekturübersicht mit \textit{Connection Pool}
+				\item Konzeptionelles Schema \\
+					Globale Struktur; neutrale und redundanzfreie Beschreibung in der Sprache eines spezifischen Datenmodells. Vergleichbar in der Architekturübersicht mit \textit{SQL Interface}
+				
+				\item Internes Schema \\
+					legt physische Struktur der DB fest (Satzformate, Zugriffspfade etc.). In der Architekturübersicht vergleichbar mit \textit{Pluggable Storage Engines}
+					
+			\end{itemize}
+			
+	\end{enumerate}
+
+\end{document}
